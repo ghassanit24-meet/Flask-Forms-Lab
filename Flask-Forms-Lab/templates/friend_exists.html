@@ -10,7 +10,14 @@
 </head>
 <body>
 
+<ul>
+	{% if name in friends%}
+	  <h2>{{name}} is your in your friends list</h2>
+	 {%else%}
+	 <h2> {{name}} isnt in your friends list</h2>
+	 {%endif%}
+	}
 
-
+</ul>
 </body>
 </html>
